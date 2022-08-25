@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{c1e35d2e-33c6-e16c-e8f7-68eddc65f64f}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{232d8503-3f3b-3f64-9183-227d405f4841}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-firstpass", "Assembly-CSharp-firstpass.csproj", "{7ad6b60a-6b05-a4d7-7496-51be93b1b3b5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity", "spine-unity.csproj", "{d514dd19-5682-ac86-550f-452e34648c85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{db4c3a45-b674-d6c7-59a0-ad9c0e846659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "spine-unity-editor", "spine-unity-editor.csproj", "{877a0aa7-120e-7a9f-c693-edf8205370a3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.Modules.UnityMathematics", "Sirenix.OdinInspector.Modules.UnityMathematics.csproj", "{e25814d9-fa89-6398-a7d4-a0ba23834c12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{c1e35d2e-33c6-e16c-e8f7-68eddc65f64f}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{c1e35d2e-33c6-e16c-e8f7-68eddc65f64f}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232d8503-3f3b-3f64-9183-227d405f4841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232d8503-3f3b-3f64-9183-227d405f4841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ad6b60a-6b05-a4d7-7496-51be93b1b3b5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ad6b60a-6b05-a4d7-7496-51be93b1b3b5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{d514dd19-5682-ac86-550f-452e34648c85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{d514dd19-5682-ac86-550f-452e34648c85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{db4c3a45-b674-d6c7-59a0-ad9c0e846659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{db4c3a45-b674-d6c7-59a0-ad9c0e846659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877a0aa7-120e-7a9f-c693-edf8205370a3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877a0aa7-120e-7a9f-c693-edf8205370a3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{e25814d9-fa89-6398-a7d4-a0ba23834c12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{e25814d9-fa89-6398-a7d4-a0ba23834c12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
