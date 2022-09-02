@@ -36,50 +36,50 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\DataReloadHandler.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\BlendModeMaterialsUtility.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonRootMotionInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonMecanimRootMotionInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Windows\SkeletonDebugWindow.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\AssetUtility.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Shaders\SpineShaderWithOutlineGUI.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Asset Types\SkeletonDataAssetInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Windows\SpinePreferences.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Windows\SkeletonBaker.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\BoneFollowerInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\BoneFollowerGraphicInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Asset Types\SpineAtlasAssetInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonRootMotionBaseInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\SpineMaskUtilities.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\Instantiation.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonGraphicInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonRendererInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\SpineEditorUtilities.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Asset Types\AnimationReferenceAssetEditor.cs" />
      <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\SpineInspectorUtility.cs" />
      <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonUtilityInspector.cs" />
      <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonPartsRendererInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonRendererCustomMaterialsInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\BoundingBoxFollowerInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonAnimationInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Windows\SkeletonBakingWindow.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\DataReloadHandler.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\BlendModeMaterialsUtility.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\Instantiation.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonGraphicInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonGraphicCustomMaterialsInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\AssetDatabaseAvailabilityDetector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Asset Types\SpineSpriteAtlasAssetInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\SpineAttributeDrawers.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\BoneFollowerInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\SpineEditorUtilities.cs" />
      <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonMecanimInspector.cs" />
      <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\Icons.cs" />
      <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonUtilityBoneInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\Preferences.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonGraphicCustomMaterialsInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\BoundingBoxFollowerGraphicInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\BuildSettings.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\PointFollowerInspector.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Windows\SkeletonBakingWindow.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\AssetDatabaseAvailabilityDetector.cs" />
      <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Menus.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Shaders\SpineSpriteShaderGUI.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Asset Types\SpineSpriteAtlasAssetInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\BoneFollowerGraphicInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\PointFollowerInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonMecanimRootMotionInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Windows\SpinePreferences.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Asset Types\SpineAtlasAssetInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\SpineMaskUtilities.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonRendererCustomMaterialsInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\BoundingBoxFollowerInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonRootMotionInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Windows\SkeletonDebugWindow.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\AssetUtility.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Shaders\SpineShaderWithOutlineGUI.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Windows\SkeletonBaker.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Modules\SlotBlendModes\Editor\SlotBlendModesEditor.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Asset Types\SkeletonDataAssetInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonRootMotionBaseInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Asset Types\AnimationReferenceAssetEditor.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\BuildSettings.cs" />
      <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Windows\SpriteAtlasImportWindow.cs" />
-     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Modules\SkeletonRenderSeparator\Editor\SkeletonRenderSeparatorInspector.cs" />
      <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\SpineHandles.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonRendererInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\SkeletonAnimationInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Utility\Preferences.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Components\BoundingBoxFollowerGraphicInspector.cs" />
+     <Compile Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Shaders\SpineSpriteShaderGUI.cs" />
      <None Include="Assets\Plugins\Spine\Editor\spine-unity-editor.asmdef" />
      <None Include="Assets\Plugins\Spine\Editor\spine-unity\Editor\Resources\SpineAssetDatabaseMarker.txt" />
     <Reference Include="UnityEngine">
@@ -346,23 +346,14 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
         <HintPath>D:\Unity\Editor\20210307\2021.3.7f1c1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    <Reference Include="System.Reflection.Metadata">
+        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\System.Reflection.Metadata.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.YamlDotNet">
-        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.OdinInspector.Editor">
-        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+    <Reference Include="Microsoft.CodeAnalysis">
+        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\Microsoft.CodeAnalysis.dll</HintPath>
     </Reference>
     <Reference Include="Sirenix.OdinInspector.Attributes">
         <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Attributes.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.TextureAssets">
-        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
         <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll</HintPath>
@@ -373,41 +364,62 @@
     <Reference Include="Sirenix.Serialization.Config">
         <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.Config.dll</HintPath>
     </Reference>
-    <Reference Include="Sirenix.Utilities">
-        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
-        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="ReportGeneratorMerged">
         <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.testtools.codecoverage@1.0.1\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
         <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Sirenix.Utilities.Editor">
+        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Newtonsoft.Json">
+        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\GameFramework\Libraries\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe">
+        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Plastic.Antlr3.Runtime">
+        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.YamlDotNet">
+        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.OdinInspector.Editor">
+        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Sirenix\Assemblies\Sirenix.OdinInspector.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp">
+        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.TextureAssets">
+        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\EditorAssetResources\Unity.VisualScripting.TextureAssets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Mdb">
+        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Mdb.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil">
+        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="ILRuntime.Mono.Cecil.Pdb">
+        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.ourpalm.ilruntime@2.0.2\Plugins\ILRuntime.Mono.Cecil.Pdb.dll</HintPath>
+    </Reference>
+    <Reference Include="Sirenix.Utilities">
+        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
+        <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.visualscripting@1.7.8\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Sirenix.Serialization">
         <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Sirenix\Assemblies\Sirenix.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="unityplastic">
         <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.collab-proxy@1.17.1\Lib\Editor\PlasticSCM\unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="Sirenix.Utilities.Editor">
-        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Sirenix\Assemblies\Sirenix.Utilities.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Reflection.Metadata">
-        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\System.Reflection.Metadata.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeAnalysis">
-        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\Microsoft.CodeAnalysis.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Runtime.CompilerServices.Unsafe">
-        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CodeAnalysis.CSharp">
-        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Collections.Immutable">
-        <HintPath>D:\UnityProject\MyTest\Assets\Plugins\Roslyn\System.Collections.Immutable.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>D:\UnityProject\MyTest\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
